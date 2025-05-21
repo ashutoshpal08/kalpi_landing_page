@@ -75,7 +75,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }} // Animate to visible and original position
           transition={{ duration: 1 }} // Animation duration of 1 second
         >
-          {headlines[0]} // Display the first headline
+          {headlines[0]} 
         </motion.h1>
         {/* Animated description text */}
         <motion.p

@@ -51,7 +51,7 @@ export default function Header() {
       transition={{ duration: 0.5 }} // Animation duration of 0.5 seconds
     >
       {/* Container for centering content with max-width and padding */}
-      <div className="flex justify-between items-center max-w-7xl mx-auto p-4">
+      <div className="flex justify-between items-center max-w-7xl mx-auto p-2">
         {/* Logo section */}
         <div className="flex items-center">
           {/* Display Kalpi Capital logo using Next.js Image component for optimization */}
